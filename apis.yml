@@ -1,8 +1,24 @@
 aid: collectivemedical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/collectivemedical.png
 name: Collectivemedical
-description: 'Collectivemedical is a company surfaced as a portfolio company of bond-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Collective Medical was a Salt Lake City-based healthtech company that operated a
+  real-time care-collaboration network connecting hospitals, emergency departments, health plans, and
+  provider organizations to identify and coordinate care for high-risk and complex patients. It is best
+  known for its EDIE (Emergency Department Information Exchange) and PreManage platforms. Collective Medical
+  was acquired by PointClickCare in 2020, and the brand now operates as a product line within PointClickCare;
+  collectivemedical.com resolves to a PointClickCare marketing page. This profile has no public API,
+  developer portal, or machine-readable specification surface.'
 url: https://raw.githubusercontent.com/api-evangelist/collectivemedical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthtech
+- Care Coordination
+- Health Information Exchange
+- Population Health
+- Interoperability
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/collectivemedical-domain-security.yml
 - type: Website
   url: https://collectivemedical.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
