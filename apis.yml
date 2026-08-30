@@ -42,7 +42,7 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Care Coordination
 - Health Information Exchange
 - Population Health
@@ -63,6 +63,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/pointclickcare/
+  name: PointClickCare
+  x-relationship: acquired
+  x-evidence: "Collective Medical was acquired by PointClickCare in 2020, and the brand now operates as a product line within PointClickCare; collectivemedical."
 - type: DomainSecurity
   url: security/collectivemedical-domain-security.yml
 - type: Website
