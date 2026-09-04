@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://collectivemedical.com', status: 301, note: 'declared website redirects to https://pointclickcare.com/collective-medical/ — a different registrable domain (collectivemedical.com -> pointclickcare.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/collectivemedical.png
 name: Collectivemedical
 description: 'Collective Medical was a Salt Lake City-based healthtech company that operated a
